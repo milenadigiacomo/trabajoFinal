@@ -1,0 +1,44 @@
+header {
+  div {
+    background-color: $color-principal;
+  }
+}
+.btn-mod {
+  color: $color-principal;
+  background-color: $color-secundario;
+  border-color: $color-secundario;
+  &:hover {
+    background-color: darken($color-secundario, 10%);
+  }
+}
+i {
+  color: $color-secundario;
+  font-size: 30px;
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+}
+h4:hover::after {
+  content: "☺";
+}
+h4::selection {
+  background-color: $color-selection;
+  color: white;
+}
+footer{
+  @include pieDePag
+} 
+.imgSection, .tutoriales{
+  @extend %display; 
+}
+h3{
+  @include subtitulosH3
+}
+.uno{
+  text-align: map-get($logo, text-aling-center);
+  padding-top: map-get($logo, pixeles-padding-logo);
+}
+.dos{
+  text-align: map-get($logo, text-aling-center);
+  padding-bottom: map-get($logo, pixeles-padding-logo);
+}
