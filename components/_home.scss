@@ -4,7 +4,7 @@ header {
   }
 }
 .btn-mod {
-  color: $color-principal;
+  color: white;
   background-color: $color-secundario;
   border-color: $color-secundario;
   &:hover {
@@ -41,4 +41,14 @@ h3{
 .dos{
   text-align: map-get($logo, text-aling-center);
   padding-bottom: map-get($logo, pixeles-padding-logo);
+}
+header nav img{
+  width: 200px;
+  height: 150px;
+}
+.body{
+  background-image: url(../assets/img/mgparafondo.png);
+}
+.polPrivColor{
+  color: $color-secundario;
 }
