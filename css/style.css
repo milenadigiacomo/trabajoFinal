@@ -327,4 +327,9 @@ header nav img {
   color: #d37c9f;
 }
 
+.row-mod {
+  display: block;
+  padding: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
