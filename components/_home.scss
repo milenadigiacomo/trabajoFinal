@@ -1,58 +1,28 @@
-header {
-  div {
-    background-color: $color-principal;
+.tamanoChiara img {
+    width: 35%;
   }
-}
-.btn-mod {
-  color: white;
-  background-color: $color-secundario;
-  border-color: $color-secundario;
-  &:hover {
-    background-color: darken($color-secundario, 10%);
-  }
-}
-i {
-  color: $color-secundario;
-  font-size: 30px;
-  position: fixed;
-  right: 15px;
-  bottom: 5px;
-}
-h4:hover::after {
-  content: "☺";
-}
-h4::selection {
-  background-color: $color-selection;
-  color: white;
-}
-footer{
-  @include pieDePag
-} 
 .imgSection, .tutoriales{
-  @extend %display; 
-}
-h3{
-  @include subtitulosH3
-}
-.uno{
-  text-align: map-get($logo, text-aling-center);
-  padding-top: map-get($logo, pixeles-padding-logo);
-}
-.dos{
-  text-align: map-get($logo, text-aling-center);
-  padding-bottom: map-get($logo, pixeles-padding-logo);
-}
-header nav img{
-  width: 200px;
-  height: 150px;
-}
-.body{
-  background-image: url(../assets/img/mgparafondo.png);
-}
-.polPrivColor{
-  color: $color-secundario;
-}
-.row-mod{
-  display: block;
-  padding: 5px;
-}
+    @extend %display; 
+  }
+  .tamanoImg img {
+    width: 19%;
+  }
+  iframe{
+    border: 0;
+    margin: 1rem;
+  }  
+  .suscribite {
+    padding-top: 110px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .transformSus:hover {
+    transform: scale(2);
+    transition: all 2s;
+  }
+  .recibiNovedades {
+    padding-top: 15px;
+    padding-bottom: 80px;
+  }
