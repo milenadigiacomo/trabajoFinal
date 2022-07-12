@@ -50,7 +50,7 @@ a {
 }
 
 .imgBack {
-  background-image: url(/assets/img/abc.jpg);
+  background-image: url(../assets/img/abc.jpg);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
