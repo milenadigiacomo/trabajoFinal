@@ -13,17 +13,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin: 30px 20px 0 20px;
 }
 .tamano-fotohome{
   background-image: url(../assets/img/mgparafondoo.png);
   height: 450px;
-  width: 100%;
-  margin-top: 15px;
-}
-.tamano-fotohome-dos{
-  background-image: url(./assets/img/abc.jpg);
-  height: 10px;
   width: 100%;
   margin-top: 15px;
 }
