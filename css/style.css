@@ -240,7 +240,7 @@ iframe {
 }
 
 .principal {
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 
 .principal .foto-principal {
@@ -269,7 +269,7 @@ iframe {
 }
 
 .bg-color {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 .margen-tendencia {
@@ -336,6 +336,9 @@ iframe {
   }
   .foto-principal {
     width: 100%;
+  }
+  .parrafo {
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) {

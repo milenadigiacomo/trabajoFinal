@@ -5,22 +5,25 @@
 }
 
 @media screen and (max-width: 1220px) {
-  .margen-tendencia{
+  .margen-tendencia {
     margin: auto;
   }
-  .margen-tendencia-dos{
+  .margen-tendencia-dos {
     margin: auto;
   }
-  .margen-tendencia-tres{
+  .margen-tendencia-tres {
     margin: auto;
   }
   .panel-principal {
     float: none;
     width: 100%;
-}
-.foto-principal{
-  width: 100%;
-}
+  }
+  .foto-principal {
+    width: 100%;
+  }
+  .parrafo {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {

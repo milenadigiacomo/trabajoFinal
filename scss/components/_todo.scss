@@ -17,7 +17,7 @@ header ul li {
   padding-top: 5px;
   padding-bottom: 20px;
 }
-.colorNav{
+.colorNav {
   color: $color-secundario;
 }
 a {
@@ -82,22 +82,22 @@ footer {
 h3 {
   @include subtitulosH3;
 }
-.letraTitulos{
-  font-family: 'Barlow', sans-serif;
+.letraTitulos {
+  font-family: "Barlow", sans-serif;
   font-weight: 600;
   color: #000;
   font-size: 24px;
   text-align: center;
   letter-spacing: 3.28px;
 }
-.letraSubtitulos{
-  font-family: 'Barlow', sans-serif;
+.letraSubtitulos {
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
   color: #000;
   font-size: 17px;
 }
-.letraParrafos{
-  font-family: 'Barlow', sans-serif;
+.letraParrafos {
+  font-family: "Barlow", sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 17px;
