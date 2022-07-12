@@ -1,0 +1,85 @@
+@media print {
+    nav {
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    header ul {
+      flex-direction: column;
+    }
+    .imgFragancias {
+      display: none;
+    }
+    .imgReviews {
+      display: none;
+    }
+    .tutoriales {
+      flex-wrap: wrap;
+    }
+    .tutoDos {
+      display: none;
+    }
+    #introTablet {
+      display: none;
+    }
+    #gridsFotosIntro {
+      display: none;
+    }
+    .yo p {
+      padding: 0;
+      text-align: center;
+    }
+    .yo img {
+      width: 35%;
+      padding: 0%;
+    }
+    .tamanoImg{
+      display: none;
+    }
+    .tamanoImgTab{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .tamanoImgTab img {
+      width: 25%;
+    }
+    .section-tendencias{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .imgFragancias {
+      display: none;
+    }
+    .imgReviews {
+      display: none;
+    }
+    
+    .tutoriales {
+      flex-wrap: wrap;
+    }
+    .tutoTres {
+      display: none;
+    }
+    
+    .introTablet {
+      display: flex;
+    }
+    .yo p {
+      padding: 0;
+      text-align: center;
+    }
+    .imgMia{
+      display: none;
+    }
+    .yoMobile{
+      display: flex;
+      height: 300px;
+      padding: 5px;
+      justify-content: center;
+    }
+  }

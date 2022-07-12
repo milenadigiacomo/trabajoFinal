@@ -1,0 +1,69 @@
+.tamanoChiara img {
+  width: 35%;
+}
+.imgSection,
+.tutoriales {
+  @extend %display;
+}
+.tamanoImg img {
+  width: 270px;
+  height: 310px;
+}
+.fotos-home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 20px 0 20px;
+}
+.tamano-fotohome{
+  background-image: url(/assets/img/mgparafondoo.png);
+  height: 450px;
+  width: 100%;
+  margin-top: 15px;
+}
+.tamano-fotohome-dos{
+  background-image: url(/assets/img/abc.jpg);
+  height: 10px;
+  width: 100%;
+  margin-top: 15px;
+}
+iframe {
+  border: 0;
+  margin: 1rem;
+}
+.suscribite {
+  padding-top: 110px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.transformSus:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+.recibiNovedades {
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+.bot-home {
+  width: 30%;
+  align-content: center;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 500px;
+height: 400px;
+margin: 60px 40px;
+border: 6px;
+border-top: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+margin: 110px auto 0px auto;
+}
+.subrayado{
+  text-decoration: underline;
+}

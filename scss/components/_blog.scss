@@ -1,0 +1,60 @@
+.principal {
+    background: #F1F1F1;
+}
+.principal .foto-principal {
+    float: left;
+    font-size: 0;
+    display: block;
+}
+.panel-principal {
+    float: left;
+    width: 385px;
+}
+.titular-principal {
+    font-size: 32px;
+    margin: 8px 15px 30px 40px;
+}
+.parrafo {
+    font-size: 20px;
+    margin: 0px 0px 20px 40px;
+}
+.bg-color{
+    background-color: #F1F1F1;
+}
+.margen-tendencia{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 15px auto 0px auto;
+}
+.margen-extra{
+    margin-top: 55px;
+}
+.titulo-tendencia h4 {
+    float: left;
+    font-size: 0;
+    display: block;
+}
+.margen-tendencia-dos{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px 26px 40px auto;
+}
+.margen-tendencia-tres{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px auto 40px 26px;
+}
+.displayy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carrousel{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}

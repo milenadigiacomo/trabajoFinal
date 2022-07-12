@@ -1,7 +1,9 @@
 @charset "UTF-8";
-.imgSection, .tutoriales {
+.imgSection,
+.tutoriales {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 * {
@@ -10,7 +12,7 @@
 }
 
 header div {
-  background-color: #fadce8;
+  background-image: url(/assets/img/abc.jpg);
 }
 
 header ul {
@@ -23,6 +25,10 @@ header ul li {
   margin: 10px;
   padding-top: 5px;
   padding-bottom: 20px;
+}
+
+.colorNav {
+  color: #ff9000;
 }
 
 a {
@@ -40,23 +46,14 @@ a {
 }
 
 .polPrivColor {
-  color: #d37c9f;
+  color: rgb(240, 74, 140);
 }
 
 .imgBack {
-  background-image: url(../assets/img/imgfondo.jpg);
+  background-image: url(/assets/img/abc.jpg);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.margen {
-  margin: 15px 30px 15px 30px;
-}
-
-.letraNormal {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
 }
 
 .cuatro {
@@ -76,26 +73,26 @@ a {
 
 .btn-mod {
   color: white;
-  background-color: #d37c9f;
-  border-color: #d37c9f;
+  background-color: rgb(240, 74, 140);
+  border-color: rgb(240, 74, 140);
 }
 .btn-mod:hover {
-  background-color: #c65683;
+  background-color: #ec1b6e;
 }
 
 i {
-  color: #d37c9f;
+  color: #ff9000;
   font-size: 30px;
   position: fixed;
   right: 15px;
   bottom: 5px;
 }
 
-h4:hover::after {
+.emogi:hover::after {
   content: "☺";
 }
 
-h4::selection {
+p::selection {
   background-color: rgb(240, 74, 140);
   color: white;
 }
@@ -105,7 +102,7 @@ footer {
   padding: 15px;
   font-size: small;
   margin-top: 40px;
-  background-color: #fadce8;
+  background-image: url(/assets/img/abc.jpg);
 }
 
 h3 {
@@ -114,6 +111,225 @@ h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 35px;
+}
+
+.letraTitulos {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.28px;
+}
+
+.letraSubtitulos {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 17px;
+}
+
+.letraParrafos {
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 17px;
+}
+
+.tamanoChiara img {
+  width: 35%;
+}
+
+.tamanoImg img {
+  width: 270px;
+  height: 310px;
+}
+
+.fotos-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 20px 0 20px;
+}
+
+.tamano-fotohome {
+  background-image: url(/assets/img/mgparafondoo.png);
+  height: 450px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.tamano-fotohome-dos {
+  background-image: url(/assets/img/abc.jpg);
+  height: 10px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+iframe {
+  border: 0;
+  margin: 1rem;
+}
+
+.suscribite {
+  padding-top: 110px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.transformSus:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.recibiNovedades {
+  padding-top: 15px;
+  padding-bottom: 80px;
+}
+
+.bot-home {
+  width: 30%;
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+  margin: 60px 40px;
+  border: 6px;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin: 110px auto 0px auto;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.row-mod {
+  display: block;
+  padding: 5px;
+}
+
+.introAbout p {
+  text-align: left;
+}
+
+.introAbout img {
+  width: 19%;
+}
+
+.yoMobile {
+  display: none;
+}
+
+.yo p {
+  text-align: right;
+  padding: 150px 150px 150px 100px;
+}
+
+.yo img {
+  width: 35%;
+  padding-left: 100px;
+}
+
+.centroCarousel {
+  margin: 0 auto;
+}
+
+.margen-abajo {
+  margin-bottom: 150px;
+}
+
+.carita {
+  color: rgb(240, 74, 140);
+  text-align: center;
+  font-size: 200px;
+}
+
+.textPP {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.principal {
+  background: #F1F1F1;
+}
+
+.principal .foto-principal {
+  float: left;
+  font-size: 0;
+  display: block;
+}
+
+.panel-principal {
+  float: left;
+  width: 385px;
+}
+
+.titular-principal {
+  font-size: 32px;
+  margin: 8px 15px 30px 40px;
+}
+
+.parrafo {
+  font-size: 20px;
+  margin: 0px 0px 20px 40px;
+}
+
+.bg-color {
+  background-color: #F1F1F1;
+}
+
+.margen-tendencia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto 0px auto;
+}
+
+.margen-extra {
+  margin-top: 55px;
+}
+
+.titulo-tendencia h4 {
+  float: left;
+  font-size: 0;
+  display: block;
+}
+
+.margen-tendencia-dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 26px 40px auto;
+}
+
+.margen-tendencia-tres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 40px 26px;
+}
+
+.displayy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.carrousel {
+  display: flex;
+  width: 500px;
+  height: 300px;
+  margin: auto;
 }
 
 @media print {
@@ -151,18 +367,26 @@ h3 {
     width: 35%;
     padding: 0%;
   }
+  .tamanoImg {
+    display: none;
+  }
+  .tamanoImgTab {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tamanoImgTab img {
+    width: 25%;
+  }
+  .section-tendencias {
+    display: none;
+  }
 }
 @media screen and (max-width: 420px) {
   .imgFragancias {
     display: none;
   }
   .imgReviews {
-    display: none;
-  }
-  .imgHair {
-    display: none;
-  }
-  .imgSkin {
     display: none;
   }
   .tutoriales {
@@ -178,84 +402,15 @@ h3 {
     padding: 0;
     text-align: center;
   }
-  .yo img {
+  .imgMia {
     display: none;
   }
   .yoMobile {
     display: flex;
-    width: 5%;
+    height: 300px;
     padding: 5px;
     justify-content: center;
   }
-}
-.tamanoChiara img {
-  width: 35%;
-}
-
-.tamanoImg img {
-  width: 19%;
-}
-
-iframe {
-  border: 0;
-  margin: 1rem;
-}
-
-.suscribite {
-  padding-top: 110px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.transformSus:hover {
-  transform: scale(2);
-  transition: all 2s;
-}
-
-.recibiNovedades {
-  padding-top: 15px;
-  padding-bottom: 80px;
-}
-
-.row-mod {
-  display: block;
-  padding: 5px;
-}
-
-#introDesktop {
-  display: none;
-}
-
-.introAbout p {
-  text-align: left;
-}
-
-.introAbout img {
-  width: 19%;
-}
-
-.yoMobile {
-  display: none;
-}
-
-.yo p {
-  text-align: right;
-  padding: 150px 150px 150px 100px;
-}
-
-.yo img {
-  width: 35%;
-  padding-left: 100px;
-}
-
-.centroCarousel {
-  margin: 0 auto;
-}
-
-.textPP {
-  padding-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
