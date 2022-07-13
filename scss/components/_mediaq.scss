@@ -5,11 +5,14 @@
 }
 
 @media screen and (max-width: 1220px) {
+ .foto-home{
+  margin: 15px;
+ }
   .margen-tendencia {
     margin: auto;
   }
   .margen-tendencia-dos {
-    margin: auto;
+    margin: 30px auto 30px auto;
   }
   .margen-tendencia-tres {
     margin: auto;
@@ -23,6 +26,9 @@
   }
   .parrafo {
     margin: auto;
+  }
+  .foto-principal-about {
+    width: 100%;
   }
 }
 

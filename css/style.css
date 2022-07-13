@@ -234,6 +234,21 @@ iframe {
   font-size: 200px;
 }
 
+.principal-about {
+  background: #f1f1f1;
+  width: 90%;
+}
+
+.foto-principal-about {
+  float: left;
+  font-size: 0;
+  display: block;
+}
+
+.foto-principal-about {
+  width: 62%;
+}
+
 .textPP {
   padding-top: 3%;
   padding-bottom: 5%;
@@ -325,11 +340,14 @@ iframe {
   }
 }
 @media screen and (max-width: 1220px) {
+  .foto-home {
+    margin: 15px;
+  }
   .margen-tendencia {
     margin: auto;
   }
   .margen-tendencia-dos {
-    margin: auto;
+    margin: 30px auto 30px auto;
   }
   .margen-tendencia-tres {
     margin: auto;
@@ -343,6 +361,9 @@ iframe {
   }
   .parrafo {
     margin: auto;
+  }
+  .foto-principal-about {
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
